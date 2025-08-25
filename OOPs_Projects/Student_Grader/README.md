@@ -1,44 +1,37 @@
-# Library Management System
+# Student Grader
 
 ## Main Entities
 
-- **Book**: 
-  - title
-  - author
+- **Student**: 
   - ID
-  - availability
-- **User**: 
-  - name
-  - ID
-  - borrowed_books
-- **LibrarySystem**: manages books and users
+  - Name
+  - Mark
+- **GraderSystem**: handles multiple students
 
 ---
 
 ## Key Functions
 
-- **add_book(title, author, id)**  
-  ➤ Adds a new book to the library
+- **add_student(id, name)**  
+  ➤ Registers a new student
 
-- **remove_book(id)**  
-  ➤ Deletes a book from the system
+- **add_mark(id, subject, marks)**  
+  ➤ Adds or updates marks for a subject
 
-- **borrow_book(user_id, book_id)**  
-  ➤ Lends a book to a user
+- **calculate_average(id)**  
+  ➤ Calculates average marks
 
-- **return_book(user_id, book_id)**  
-  ➤ Returns a book from a user
+- **get_grade(id)**  
+  ➤ Returns grade based on average
 
-- **view_available_books()**  
-  ➤ Shows all unborrowed books
-
-- **view_user_books(user_id)**  
-  ➤ Lists books borrowed by a user
+- **view_report(id)**  
+  ➤ Shows detailed marks and grade
 
 ---
 
 ## Expected Output
 
-- Messages like “Book borrowed successfully”  
-- Lists of available books  
-- User borrowing history
+- Name: Alice  
+- Subjects: Math: 85, English: 90  
+- Average: 87.5  
+- Grade: A
