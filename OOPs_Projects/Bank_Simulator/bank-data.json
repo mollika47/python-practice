@@ -1,0 +1,36 @@
+[
+    {
+        "Account_no": 1001,
+        "Name": "Rosy",
+        "Initial Deposit": 5000,
+        "Current Balance": 3000
+    },
+    {
+        "Account_no": 1002,
+        "Name": "Zack",
+        "Initial Deposit": 10000,
+        "Current Balance": 54000
+    },
+    {
+        "Account_no": 1003,
+        "Name": "Georgia",
+        "Initial Deposit": 5000
+    },
+    {
+        "Account_no": 1004,
+        "Name": "Harry",
+        "Initial Deposit": 2000,
+        "Current Balance": 4000
+    },
+    {
+        "Account_no": 1005,
+        "Name": "Zoey",
+        "Initial Deposit": 500,
+        "Current Balance": 12000
+    },
+    {
+        "Account_no": 1006,
+        "Name": "Isabel",
+        "Initial Deposit": 2000
+    }
+]
