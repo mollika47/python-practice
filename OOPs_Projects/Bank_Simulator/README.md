@@ -10,15 +10,15 @@
 ---
 
 ## Key Functions:
-- **create_account(name, account_no, initial_deposit)**
+- **create_account(name, account_no, initial_deposit)**  
   ➤ Adds a new user account
-- **deposit(account_no, amount)**
+- **deposit(account_no, amount)**  
   ➤ Adds money to the account
-- **withdraw(account_no, amount)**
+- **withdraw(account_no, amount)**  
   ➤ Deducts money if sufficient balance
-- **transfer(from_account, to_account, amount)**
+- **transfer(from_account, to_account, amount)**  
   ➤ Transfers money between accounts
-- **check_balance(account_no)**
+- **check_balance(account_no)**  
   ➤ Displays current balance
 
 ---
